@@ -34,6 +34,7 @@ public class Principal {
         cancion1.imprimirCanciones();
         System.out.println("****************");
         cancion2.imprimirCanciones();
+        cancion1.imprimirCanciones();
 
     }
 
