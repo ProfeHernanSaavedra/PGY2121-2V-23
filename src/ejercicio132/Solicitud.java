@@ -107,6 +107,11 @@ public class Solicitud {
         this.numero = this.numero + 1; // return this.numero++
         return this.numero;
     }
+
+    @Override
+    public String toString() {
+        return "Solicitud{" + "numero=" + numero + ", total=" + total + ", fecha=" + fecha + ", cliente=" + cliente + ", productos=" + productos + '}';
+    }
     
     
 }
