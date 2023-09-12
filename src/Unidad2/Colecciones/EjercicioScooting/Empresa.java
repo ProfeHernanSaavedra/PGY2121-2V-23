@@ -59,7 +59,7 @@ public class Empresa {
       for (Empleado emplea : listaEmpleados) {
           if (buscarEmpleado(rut)) {
               listaEmpleados.remove(emplea);
-              System.out.println("Empleado Eliminado!");
+              System.out.println("Empleado " + emplea.getNombreEmpleado()+" Eliminado!");
           }
           else{
               System.out.println("Empleado no existe");
